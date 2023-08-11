@@ -17,11 +17,14 @@ The KCIDB [engagement
 reports](https://groups.io/g/kernelci/search?q=%23KCIDB&ct=1) provide more
 details about the latest status of data submitters.
 
+See the [Tests Catalog](https://github.com/kernelci/kcidb/blob/main/tests.yaml)
+file with the list of test identifiers used by KCIDB.
+
 ## CI Services contributing to KCIDB
 
 The are a number of [CI Services in
 production](https://github.com/orgs/kernelci/projects/16) contributing to
-[KCIDB](https://kcidb.kernelci.org):
+KCIDB:
 
 * [KernelCI native tests](https://linux.kernelci.org/job/)
 * [Red Hat CKI](https://cki-project.org/)
