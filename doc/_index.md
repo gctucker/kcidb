@@ -1,7 +1,6 @@
 ---
 title: "KCIDB"
-date: 2021-11-18
-draft: false
+date: 2023-08-11
 description: "KernelCI Database service and tools"
 ---
 
@@ -14,7 +13,15 @@ Write to [kernelci@lists.linux.dev](mailto:kernelci@lists.linux.dev) if you
 want to start submitting results from your CI system, or if you want to
 receive automatic notifications of arriving results.
 
-Here's the list of systems currently submitting data:
+The KCIDB [engagement
+reports](https://groups.io/g/kernelci/search?q=%23KCIDB&ct=1) provide more
+details about the latest status of data submitters.
+
+## CI Services contributing to KCIDB
+
+The are a number of [CI Services in
+production](https://github.com/orgs/kernelci/projects/16) contributing to
+[KCIDB](https://kcidb.kernelci.org):
 
 * [KernelCI native tests](https://linux.kernelci.org/job/)
 * [Red Hat CKI](https://cki-project.org/)
@@ -23,6 +30,17 @@ Here's the list of systems currently submitting data:
 * [ARM](https://arm.com)
 * [Gentoo GKernelCI](https://github.com/GKernelCI/GBuildbot)
 
-The KCIDB [engagement
-reports](https://groups.io/g/kernelci/search?q=%23KCIDB&ct=1) provide more
-details about the latest status.
+### Red Hat CKI
+
+This is Red Hat’s kernel CI service.  They run tests on a variety of
+enterprise class machines.  This service is used to test the kernel package
+in the Red Hat Enterprise Linux (RHEL) product.
+
+* See [Contributing to
+  CKI](https://cki-project.org/docs/test-maintainers/onboarding/) for
+  instructions to add tests
+* See [Contributing a submaintainer
+  tree](https://cki-project.org/docs/user_docs/onboarding/) for instructions to
+  test a git branch
+* You can find more details at the [cki-project.org](https://cki-project.org)
+* Contact: Send questions to **cki-project@redhat.com**
